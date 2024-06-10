@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "aaron-bond.better-comments",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "prisma.prisma",
+    "bradlc.vscode-tailwindcss",
+    "firsttris.vscode-jest-runner",
+    "yoavbls.pretty-ts-errors"
+  ]
+}
