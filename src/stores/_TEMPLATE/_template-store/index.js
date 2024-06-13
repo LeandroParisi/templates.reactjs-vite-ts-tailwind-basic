@@ -1,3 +1,4 @@
+import DevelopmentError from 'errors/DevelopmentError'
 import { useState } from 'react'
 import { createStore } from 'stores/_base/create-store'
 
@@ -32,6 +33,16 @@ const templateStore = createStore(() => {
   return { store, actions }
 })
 
-export const useTemplateStore = () => templateStore()
+export const useTemplateStore = () => {
+  const context = templateStore()
+
+  if (context === undefined) {
+    throw new DevelopmentError(
+      'You are trying to useTemplateStore outside Provider.'
+    )
+  }
+
+  return context
+}
 export const TemplateContext = templateStore.Context
 export const TemplateProvider = templateStore.Provider
