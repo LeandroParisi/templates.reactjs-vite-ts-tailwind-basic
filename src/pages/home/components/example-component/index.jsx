@@ -1,3 +1,3 @@
 export function ExampleComponent({ test }) {
-  return <h1>{test}</h1>
+  return <h1 className="text-brand-primary">{test}</h1>
 }

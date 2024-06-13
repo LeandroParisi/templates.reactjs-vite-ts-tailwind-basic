@@ -1,0 +1,27 @@
+{
+  "PRIMARY": "#5bad24",
+  "SECONDARY": "#7624AD",
+  "TERTIARY": "#008B7C",
+
+  "LIGHT_GREEN_1": "#31BEAF",
+  "GREEN": "#5bad24",
+  "DARK_GREEN_1": "#008B7C",
+
+  "PALE_PURPLE": "#EBE9FF",
+  "LIGHT_PURPLE_1": "#8345AA",
+  "PURPLE": "#7725AE",
+  "DARK_PURPLE_1": "#7624AD",
+  "DARK_PURPLE_2": "#4b1272",
+
+  "BLUE": "#00AACB",
+  "BLUE_2": "#00BCA7",
+  "DARK_BLUE_1": "#2D3748",
+  "DARK_BLUE_2": "#0A121E",
+  "BLACK": "#0D0D0D",
+
+  "WHITE": "#FBFBFD",
+  "DARK_WHITE_1": "#EDEDEE",
+
+  "ERROR_1": "#CF222E",
+  "ERROR_2": "#ff8686"
+}
