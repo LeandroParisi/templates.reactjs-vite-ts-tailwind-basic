@@ -2,6 +2,12 @@
 1. Use ```yarn```
 
 
+
+## Debugging:
+1. Run ```yarn dev```
+2. On VSCode click run and Debug (third icon from the top on left side bar) run it with **Debug App**
+
+
 ## About the boilerplate
 
 ![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)

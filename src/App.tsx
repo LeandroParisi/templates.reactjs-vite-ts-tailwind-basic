@@ -3,12 +3,14 @@ import { getRoutes, routes } from 'routes'
 
 function App() {
   return (
+    // <TemplateProvider>
     <BrowserRouter>
       <Routes>
         {getRoutes(routes)}
         <Route path="*" element={<Navigate to="/dashboard" />} />
       </Routes>
     </BrowserRouter>
+    // </TemplateProvider>
   )
 }
 
